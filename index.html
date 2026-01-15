@@ -7,19 +7,13 @@
 <style>
     body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f9f9f9; color: #333; }
     header { background: #800000; color: #fff; padding: 20px; text-align: center; }
-    nav { display: flex; flex-wrap: wrap; justify-content: center; background: #333; }
-    nav a { color: #fff; padding: 14px 20px; text-decoration: none; }
-    nav a:hover { background: #800000; }
-    .container { max-width: 1200px; margin: auto; padding: 20px; }
-    .project-card { background: #fff; padding: 20px; margin-bottom: 20px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
-    .project-card img { width: 100%; height: auto; border-radius: 8px; margin-bottom: 10px; }
-    footer { text-align: center; padding: 10px; background: #333; color: #fff; }
+    section { max-width: 800px; margin: auto; padding: 20px; }
     h1, h2 { color: #800000; }
-    .btn { display: inline-block; padding: 10px 15px; background: #800000; color: #fff; text-decoration: none; border-radius: 5px; }
-    .btn:hover { background: #a00000; }
-    @media (max-width: 768px) {
-        nav a { flex: 1 1 100%; text-align: center; }
-    }
+    .project, .skills { margin-bottom: 20px; padding: 15px; background: #fff; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+    footer { text-align: center; padding: 10px; background: #333; color: #fff; margin-top: 20px; }
+    a.btn { display: inline-block; padding: 10px 15px; background: #800000; color: #fff; text-decoration: none; border-radius: 5px; }
+    a.btn:hover { background: #a00000; }
+    ul { padding-left: 20px; }
 </style>
 </head>
 <body>
@@ -27,50 +21,53 @@
     <h1>Any’A S. Creeks</h1>
     <p>Web Project Manager | Higher Education Technology Leader</p>
 </header>
-<nav>
-    #homeHome</a>
-    #projectsProjects</a>
-    #aboutAbout</a>
-    #contactContact</a>
-</nav>
-<div class="container" id="home">
-    <h2>Welcome</h2>
-    <p>I specialize in managing complex web projects, enhancing accessibility, and integrating innovative technologies for higher education institutions.</p>
-    #projectsView My Work</a>
-</div>
-<div class="container" id="projects">
+
+<section>
+    <h2>About Me</h2>
+    <p>I specialize in managing complex web projects, enhancing accessibility, and integrating innovative technologies for higher education institutions. With a Master of Science in Learning Design and Technology and over a decade of experience, I bring expertise in project management and user-centered design.</p>
+    ASC_Resume_Functional_Analyst.pdfDownload Resume</a>
+</section>
+
+<section>
+    <h2>Skills</h2>
+    <div class="skills">
+        <ul>
+            <li><strong>Project Management:</strong> Process Analysis & Design, Workflow Optimization, Cross-functional Collaboration</li>
+            <li><strong>Technical:</strong> Windows 11, macOS, Active Directory, VMWare, vSphere</li>
+            <li><strong>Web & Design Tools:</strong> Adobe Photoshop, Illustrator, InDesign, Audition, Premiere</li>
+            <li><strong>Deployment & Admin:</strong> Jamf, Pharos Print Management</li>
+            <li><strong>Media & Production:</strong> Pro Tools, FL Studio, Final Cut Pro</li>
+            <li><strong>Communication:</strong> Verbal & Written, Editing Oversight</li>
+        </ul>
+    </div>
+</section>
+
+<section>
     <h2>Featured Projects</h2>
-    <div class="project-card">
-        images/crowdstrike.jpg
+    <div class="project">
         <h3>CrowdStrike Deployment</h3>
         <p>Led a university-wide security upgrade, coordinating technical teams and ensuring compliance with state regulations.</p>
     </div>
-    <div class="project-card">
-        images/teams.jpg
+    <div class="project">
         <h3>Skype to Microsoft Teams Migration</h3>
         <p>Managed telephony migration across multiple departments, improving communication and collaboration.</p>
     </div>
-    <div class="project-card">
-        images/learning_commons.jpg
+    <div class="project">
         <h3>Learning Commons Digital Transformation</h3>
         <p>Redesigned physical and digital learning environments, integrating new technologies and enhancing user experience.</p>
     </div>
-    <div class="project-card">
-        images/multimedia.jpg
+    <div class="project">
         <h3>Multimedia Studio Expansion</h3>
         <p>Oversaw design and implementation of advanced media production facilities, supporting academic innovation.</p>
     </div>
-</div>
-<div class="container" id="about">
-    <h2>About Me</h2>
-    <p>With over a decade of experience in higher education technology services, I bring expertise in project management, web accessibility, and user-centered design. I hold a Master of Science in Learning Design and Technology and a Bachelor of Science in Sociology.</p>
-    ASC_Resume_Functional_Analyst.pdfDownload Resume</a>
-</div>
-<div class="container" id="contact">
+</section>
+
+<section>
     <h2>Contact</h2>
     <p>Email: mailto:ahuntcreeks@icloud.comahuntcreeks@icloud.com</a></p>
     <p>LinkedIn: https://linkedin.com/in/anyacreekslinkedin.com/in/anyacreeks</a></p>
-</div>
+</section>
+
 <footer>
     <p>&copy; 2026 Any’A S. Creeks | Portfolio</p>
 </footer>
